@@ -19,7 +19,11 @@
       "locator": "engine/cordova-crosswalk-engine-c0.7.1",
       "id": "cordova-plugin-crosswalk-webview"
     },
-    "org.apache.cordova.splashscreen"
+    "org.apache.cordova.splashscreen",
+    {
+      "locator": "https://github.com/apache/cordova-plugin-whitelist.git#r1.0.0",
+      "id": "cordova-plugin-whitelist"
+    }
   ],
   "cordovaPlatforms": [
     {
