@@ -1,0 +1,19 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'update', '-g', 'node' ]
+2 info using npm@2.1.12
+3 info using node@v0.10.32
+4 verbose node symlink /usr/local/bin/node
+5 info outdated updating []
+6 verbose stack Error: EMFILE, readdir '/usr/local/lib/node_modules/tape/node_modules/glob/node_modules/minimatch/node_modules/lru-cache'
+7 verbose cwd /Users/imac01/projects/ionicframework-crosswalk-example
+8 error Darwin 14.3.0
+9 error argv "node" "/usr/local/bin/npm" "update" "-g" "node"
+10 error node v0.10.32
+11 error npm  v2.1.12
+12 error path /usr/local/lib/node_modules/tape/node_modules/glob/node_modules/minimatch/node_modules/lru-cache
+13 error code EMFILE
+14 error errno 20
+15 error EMFILE, readdir '/usr/local/lib/node_modules/tape/node_modules/glob/node_modules/minimatch/node_modules/lru-cache'
+16 error If you need help, you may report this error at:
+16 error     <http://github.com/npm/npm/issues>
+17 verbose exit [ 20, true ]
